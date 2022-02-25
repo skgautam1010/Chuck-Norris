@@ -31,7 +31,7 @@ class App extends React.Component{
     return (
         <div className="container">
             <div className="row row-content">
-                <h1 className="header-text col-12 col-md-12 col-sm-12">Chuck Norries</h1>
+                <h1 className="header-text col-12 col-md-12 col-sm-12">Chuck Norris</h1>
             
                 <div className="jokes-names col-12 col-md-12 col-sm-12">
                 {this.state.categories.map((categories,i)=>(
